@@ -7,6 +7,7 @@ div{
     table{
         width: 300;
         border-spacing: 15px;
+        overflow:hidden;
     }
          td{
             width: 20%;
@@ -18,7 +19,7 @@ div{
             border-top: solid;
             border-bottom: solid;
             margin-left: 16px;
-            overflow: auto;
-           font-weight: bold;
+            overflow-y: scroll;
+            font-weight: bold;
          }
          #padding {padding: 55px; background-color: rgb(251, 247, 234);}
